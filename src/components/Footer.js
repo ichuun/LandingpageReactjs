@@ -3,10 +3,10 @@ import Icondate from '../assets/icondate.png'
 import Reminder from '../assets/iconreminder.png'
 import Virtual from '../assets/iconvirtual.png'
 
-const Footer = () =>{
+const Footer = () => {
     return (
-        <section className='w-full -mt-[10px]'>
-            <div className='container mx-auto flex flex-row bg-[#203271] p-10 gap-x-[32px]'>
+        <section className='w-full'>
+            <div className='container mx-auto flex flex-col gap-y-[24px] md:flex-row bg-[#203271] p-10 gap-x-[32px]'>
                 <div className='flex flex-row gap-x-[25px]'>
                     <div className='p-1'>
                         <img src={Icondate} alt='' />
@@ -36,7 +36,7 @@ const Footer = () =>{
                 </div>
             </div>
         </section>
-        
+
     )
 }
 
